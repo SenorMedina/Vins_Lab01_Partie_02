@@ -87,7 +87,7 @@ public class Vin {
 		this.prix = prix;
 	}
 
-	private String Type(char type) {
+	private String type(char type) {
 		
 		String rep;
 		
