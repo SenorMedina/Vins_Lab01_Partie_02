@@ -112,7 +112,7 @@ public class Vin {
 
 	public String toString() {
 		
-		return "\n\t" + nomVin + " est un vin " + type + " de " + origin + " et son prix est de " + prix + " $";
+		return "\n\t" + nomVin + " est un vin " + type(type) + " de " + origin + " et son prix est de " + prix + " $";
 	}
 	
 	
